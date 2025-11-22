@@ -68,3 +68,18 @@
 .coin-info ul li:last-child{
     font-weight: 300;
 }
+
+@media (max-width: 600px){
+    .coin-name{
+        margin: 50px auto;
+    }
+
+    .coin-name p b{
+        font-size: 32px;   
+    }
+
+    .coin-chart{
+        width: 90%;
+        height: 200px;
+    }
+}

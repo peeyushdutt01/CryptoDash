@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Chart from 'react-google-charts'
+import './LineChart.css'
 
 const LineChart = ({ historicalData }) => {
 
@@ -16,24 +17,25 @@ const LineChart = ({ historicalData }) => {
 
 
     return (
-        <Chart
+        <Chart 
+            className='linechart'
             chartType='LineChart'
             data={data}
             options={{
                 backgroundColor: "transparent",                     // removes white bg
                 chartArea: {
                     backgroundColor: "transparent",                  // transparent inner area too
-                    width: "80%",
-                    height: "70%"
+                    width: "70%",
+                    height: "60%"
                 },
                 colors: ["#21d6b5"],                               
                 hAxis: {
-                    textStyle: { color: "#EAEAEA" },                 
+                    textStyle: { color: "#EAEAEA" , fontSize: 10},                 
                     gridlines: { color: "rgba(255,255,255,0.1)" }   
                 },
                 vAxis: {
                     
-                    textStyle: { color: "#EAEAEA" },
+                    textStyle: { color: "#EAEAEA" , fontSize: 10},
                     gridlines: { color: "rgba(255,255,255,0.1)" }
                 },
                 legend: "none",                                      

@@ -109,7 +109,7 @@
     }
 }
 
-@media (max-width: 530px){
+@media (max-width: 560px){
     .table-layout div img{
        width: 25px;
     }
@@ -120,5 +120,67 @@
 
     .hero form input{
         width: 100px;
+    }
+}
+@media (max-width: 475px){
+    .table-layout{
+        grid-template-columns:  0.3fr 2.3fr 1.3fr 1fr;
+    }
+    .table-layout div img{
+       width: 25px;
+    }
+
+    .table-layout{
+        font-size: 13px;;
+    }
+
+    .hero form input{
+        width: 100px;
+    }
+}
+
+@media (max-width: 362px){
+    .table-layout{
+        grid-template-columns:  0.3fr 2.3fr 1.3fr 1fr;
+    }
+    .table-layout div img{
+       width: 25px;
+    }
+
+    .table-layout{
+        font-size: 10px;;
+    }
+
+    .hero form input{
+        width: 100px;
+    }
+}
+@media (max-width: 320px){
+    .table-layout{
+        grid-template-columns:  0.3fr 2.3fr 1.3fr 1fr;
+    }
+    .table-layout div img{
+       width: 25px;
+    }
+
+    .table-layout{
+        font-size: 8px;;
+    }
+
+    .hero p{
+        width: 90%;
+    }
+
+    .hero h1{
+        font-size: 40px;
+    }
+
+    .hero form input{
+        width: 100px;
+        font-size: 12px;
+    }
+    .hero button{
+        padding: 8px 15px;
+        font-size: 10px;
     }
 }

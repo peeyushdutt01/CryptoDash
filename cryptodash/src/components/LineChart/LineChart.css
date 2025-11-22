@@ -1,0 +1,16 @@
+.linechart {
+  width: 100%;
+  height: 300px;   /* default */
+}
+
+@media (max-width: 600px) {
+  .linechart {
+    height: 200px;  /* smaller height on mobile */
+  }
+}
+
+@media (max-width: 400px) {
+  .linechart {
+    height: 150px;
+  }
+}
