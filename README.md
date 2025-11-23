@@ -25,12 +25,12 @@ A modern real-time cryptocurrency dashboard built with **React** and **Vite**. T
 ## 📸 Screenshots
 
 ### Home Page
-![Home Page](<img width="1901" height="908" alt="image" src="https://github.com/user-attachments/assets/35d83066-b8e4-4dd0-afbd-aabc36321e79" />
-)
+<img width="1901" height="908" alt="image" src="https://github.com/user-attachments/assets/35d83066-b8e4-4dd0-afbd-aabc36321e79" />
+
 
 ### Coin Detail View
-(<img width="1903" height="909" alt="image" src="https://github.com/user-attachments/assets/3da6685a-f5a4-4dab-a45c-558be5482dd0" />)
-(<img width="1902" height="914" alt="image" src="https://github.com/user-attachments/assets/910d5236-e29c-4339-923e-8c2d43fe8fa9" />)
+<img width="1903" height="909" alt="image" src="https://github.com/user-attachments/assets/3da6685a-f5a4-4dab-a45c-558be5482dd0" />
+<img width="1902" height="914" alt="image" src="https://github.com/user-attachments/assets/910d5236-e29c-4339-923e-8c2d43fe8fa9" />
 
 ## 🚀 Getting Started
 
@@ -74,7 +74,7 @@ Contributions are welcome! If you have suggestions for improvements or features,
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-![Live Link](https://cryptodash01.netlify.app/)
+Live Project : [Link](https://cryptodash01.netlify.app/)
 
 ## 📄 License
 
